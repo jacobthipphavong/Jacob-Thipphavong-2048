@@ -1,0 +1,33 @@
+#score {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#game-over {
+    text-align: center;
+    font-size: 2em;
+    color: #776e65;
+    display: none;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: #bbada0;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #cdc1b4;
+    color: #776e65;
+    transition: transform 0.1s;
+}
